@@ -17,22 +17,22 @@ Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri seti
 
 # Metrikler
 
-1. Gözetimli Öğrenmede Kullanılan Metrikler
+1. Gözetimli Öğrenmede Kullanılan Metrikler  
 
    Model: Random Forest Regressor ile GPU destekli XGBoost Regressor 
    Optimizasyon: RandomizedSearchCV(Veri seti büyükdere olduğundan eğitilmesi uzun süreceğinden seçilmiştir. Ancak MSE değerlerini iyileştirmede etkisi olmamıştır.)
    3-fold cross-validation modelin genelleme kabiliyetini yükseltmek için uygulanmıştır.
    Model Değerlendirme Metrikleri: MSE,MAE,RMSE, R2 skorları hesaplanmıştır.Tüm sonuçlar ile ilgili genel bir değerlendirme yapılmıştır.
    
-2. Gözetimli Öğrenmede Kullanılan Metrikler
+2. Gözetimli Öğrenmede Kullanılan Metrikler  
 
    Aykırı Değer Analizi: IQR yöntemi kullanılmıştır. K-means uzaklık temelli bir algoritma(öklidiyen) kullandığından mutlaka aykırı değerler elimine edilmelidir.
-   Standartlaştırma: MinMaxScaler Veri setimizin her değişkeninin aralıkları birbirinden çok farklı olduğundan bunu belirli bir aralığa sınırlandırmak kümeleme performansını arttırmıştır.
-   Model: K-Means
-   Optimizasyon: Kümeleme optimizasyonu için elbow(dirsek) yöntemi kullanılmıştır. Ancak bununla elde ettiğimiz veri setimizde yugun bir performans alamdığımız için buradan elde ettiğimiz kümeleme değeri kullanılmamıştır.
+   Standartlaştırma: MinMaxScaler Veri setimizin her değişkeninin aralıkları birbirinden çok farklı olduğundan bunu belirli bir aralığa sınırlandırmak kümeleme performansını arttırmıştır.  
+   Model: K-Means  
+   Optimizasyon: Kümeleme optimizasyonu için elbow(dirsek) yöntemi kullanılmıştır. Ancak bununla elde ettiğimiz veri setimizde yugun bir performans alamdığımız için buradan elde ettiğimiz kümeleme değeri kullanılmamıştır.  
    
-   PCA: Kümelediğimiz veri setini daha düzgün bir şekilde görüntülemek adına kullanıldı. Çünkü Temel bileşenler analizi(PCA) bilgiyi en fazla taşıyan değişkenlerle grafiğitemsil eder.
-   silhouette_score: Elbow yöntemiyle  optimize edilmiş kümeleme sayısı ile kümeleme başarısını ölçümlenmiştir.
+   PCA: Kümelediğimiz veri setini daha düzgün bir şekilde görüntülemek adına kullanıldı. Çünkü Temel bileşenler analizi(PCA) bilgiyi en fazla taşıyan değişkenlerle grafiğitemsil eder.  
+   silhouette_score: Elbow yöntemiyle  optimize edilmiş kümeleme sayısı ile kümeleme başarısını ölçümlenmiştir. 
    
 # Ekler
 
