@@ -19,10 +19,10 @@ Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri seti
 
 ## 1. Gözetimli Öğrenmede Kullanılan Metrikler  
 
-   Model: Random Forest Regressor ile GPU destekli XGBoost Regressor 
-   Optimizasyon: RandomizedSearchCV(Veri seti büyükdere olduğundan eğitilmesi uzun süreceğinden seçilmiştir. Ancak MSE değerlerini iyileştirmede etkisi olmamıştır.)
-   3-fold cross-validation modelin genelleme kabiliyetini yükseltmek için uygulanmıştır.
-   Model Değerlendirme Metrikleri: MSE,MAE,RMSE, R2 skorları hesaplanmıştır.Tüm sonuçlar ile ilgili genel bir değerlendirme yapılmıştır.
+   Model: Random Forest Regressor ile GPU destekli XGBoost Regressor   
+   Optimizasyon: RandomizedSearchCV(Veri seti büyükdere olduğundan eğitilmesi uzun süreceğinden seçilmiştir. Ancak MSE değerlerini iyileştirmede etkisi olmamıştır.)  
+   3-fold cross-validation modelin genelleme kabiliyetini yükseltmek için uygulanmıştır.  
+   Model Değerlendirme Metrikleri: MSE,MAE,RMSE, R2 skorları hesaplanmıştır.Tüm sonuçlar ile ilgili genel bir değerlendirme yapılmıştır.  
    
 ## 2. Gözetimli Öğrenmede Kullanılan Metrikler  
 
