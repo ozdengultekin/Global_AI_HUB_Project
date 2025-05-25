@@ -40,11 +40,11 @@ Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri seti
 
 # Sonuç ve Gelecek Çalışmalar  
 
-## 1.Gözetimli Öğrenme için Sonuçlar:  
+## 1. Gözetimli Öğrenme için Sonuçlar:  
 3000 kişinin günlük sağlık verileri baz alınarak, yeni bir kullanıcının mevcut sağlık durumu ve spor aktiviteleri sonucu girdiği veriler ile  sağlık seviyesinin (fitness_level:sürekli değişken) matematiksel olarak hesaplanması amaçlanmaktadır. Bunun için streamlit üzerinde bir arayüz tasarımı yapılacaktır.
 İlerleyen aşamada, veri setinde var olan kullanıcılar için geleceğe yönelik sağlık seviye tahmini yapacak ve dahil olduğu sağlık grubuna göre geçmiş verileri elimizde olan kişilere tavsiyelerin verileceği bir sistem geliştirmek amaçlanmaktadır. Bunun için zaman serisi üzerine çalışma yapılacaktır.
 
-## 2.Gözetimsiz Öğrenme için Sonuçlar:  
+## 2. Gözetimsiz Öğrenme için Sonuçlar:  
 İlerleyen aşamalar projenin başında da belirttiğim gibi proje ile ilgili bir arayüz hazırlanacaktır.Projenin bu kısmında yeni gelen kişiden stress_level, endurance_level,age, endurance_heart_ratio avg_heart_rate,height_cm ve heart_rate_reserve değişkenlerle ilgili ortalama değerlerini girmesini bekliyoruz. Böylece yeni gelen kişinin mevcut veri setinde hangi gruba dahil olacağını belirliyor olacağız. Ancak veri gruplama konusunda yetersiz gibi görünüyor. Bu nedenle veriyi arttırmak daha verimli olacaktır.  
 
 
