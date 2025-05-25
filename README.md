@@ -37,10 +37,6 @@ Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri seti
    
    PCA: Kümelediğimiz veri setini daha düzgün bir şekilde görüntülemek adına kullanıldı. Çünkü Temel bileşenler analizi(PCA) bilgiyi en fazla taşıyan değişkenlerle grafiğitemsil eder.    
    silhouette_score: Elbow yöntemiyle  optimize edilmiş kümeleme sayısı ile kümeleme başarısını ölçümlenmiştir.   
-   
-# Ekler
-
-
 
 # Sonuç ve Gelecek Çalışmalar  
 
