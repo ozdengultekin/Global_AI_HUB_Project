@@ -12,7 +12,7 @@ Projenin amacı,
 
 Makine Öğrenmesinin bir türü olan gözetimli öğrenme ile  yeni gelen kullanıcının girmiş olduğu bilgilere göre; 1 gün içerisinde yaptığı spor ve mevcut sağlık durumuna göre sağlık seviyesini matematiksel olarak  hesaplamaktır. 
 
-Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri setindeki kişilerin günlük sağlık ve spor alışkanlıklarının  ortalama değerlerinin benzerliklerine göre; yeni kullanıcının hangi gruba dahil olacağını tespit etmektir.
+Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri setindeki kişilerin günlük sağlık ve spor alışkanlıklarını belirten değişkenlerin ortalama değerleriyle oluşturulmuş yeni veri seti oluşturulmuştur. Sisteme yeni dahil olmuş kişinin belirlediğimiz değişkenlerin ortalama değerlerine göre yeni kişinin hangi spor ve sağlık grubuna dahil olduğunu bulmak temel hedefimizi oluşturmaktadır.
 
 
 # Metrikler
