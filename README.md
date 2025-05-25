@@ -36,7 +36,7 @@ Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri seti
    Model Optimizasyon: Kümeleme optimizasyonu için elbow(dirsek) yöntemi kullanılmıştır. Ancak bununla elde ettiğimiz veri setimizde yugun bir performans alamdığımız için buradan elde ettiğimiz kümeleme değeri kullanılmamıştır.    
    
    PCA: Kümelediğimiz veri setini daha düzgün bir şekilde görüntülemek adına kullanıldı. Çünkü Temel bileşenler analizi(PCA) bilgiyi en fazla taşıyan değişkenlerle grafiğitemsil eder.    
-   silhouette_score: Elbow yöntemiyle  optimize edilmiş kümeleme sayısı ile kümeleme başarısını ölçümlenmiştir.   
+   silhouette_score: Elbow yöntemiyle  optimize edilmiş kümeleme sayısı ile kümeleme başarısı değerlendirilmiştir.  
 
 # Sonuç ve Gelecek Çalışmalar  
 
