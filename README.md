@@ -27,7 +27,7 @@ Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri seti
    
 ## 2. Gözetimsiz Öğrenmede Kullanılan Metrikler  
 
-   Aykırı Değer Analizi: IQR yöntemi kullanılmıştır. K-means uzaklık temelli bir algoritma(öklidiyen) kullandığından mutlaka aykırı değerler elimine edilmelidir. 
+   Aykırı Değer Analizi: IQR yöntemi kullanılmıştır. K-means kümeleme de uzaklık temelli bir algoritma(öklidiyen) kullandığından mutlaka aykırı değerler elimine edilmelidir. 
    
    Standartlaştırma: MinMaxScaler Veri setimizin her değişkeninin aralıkları birbirinden çok farklı olduğundan bunu belirli bir aralığa sınırlandırmak kümeleme performansını arttırmıştır. 
    
