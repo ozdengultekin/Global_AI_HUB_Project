@@ -1,13 +1,13 @@
 # Health and Fitness Project
 # Giriş
 
-Bu repo, Global AI Hub  Makine Öğrenmesi bootcamp  sürecinde bitirme projesini sunmak amacıyla  oluşturulmuştur.
+Bu repo, Global AI Hub  Makine Öğrenmesine Giriş Bootcamp ı  sürecinde bitirme projesini sunmak amacıyla  oluşturulmuştur.
 
 ## Veri Seti Hakkında Genel Bilgi
 
 Veri Seti https://www.kaggle.com/datasets/evan65549/health-and-fitness-dataset linkten alınmıştır. Değişkenlerle ilgili açıklamaları belirttiğim linkten inceleyebilirsiniz. Health_fitness_dataset, 3.000 katılımcının 2024 yılına ait gerçek sağlık ve fitness izleme verilerini içermektedir. Veri seti 687701 satırdan oluşmaktadır.  
 
-Bu veri kümesi günlük aktiviteleri, önemli sağlık göstergelerini ve yaşam tarzı faktörlerini yakalar ve sağlık analizi ve tahmine dayalı modelleme için büyük değere sahiptir.
+Bu veri kümesi günlük aktiviteleri, önemli sağlık göstergelerini ve yaşam tarzı faktörlerini içermektedir.  
 
 Projenin amacı, 
 
