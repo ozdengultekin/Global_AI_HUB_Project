@@ -1,7 +1,7 @@
 # Health and Fitness Project
 # Giriş
 
-Bu repo, Global AI Hub bootcamplerinde template olarak kullanmak amacıyla tasarlanmıştır.
+Bu repo, Global AI Hub bootcamp inde template olarak kullanmak amacıyla tasarlanmıştır.
 
 ## Veri Seti Hakkında Genel Bilgi
 
