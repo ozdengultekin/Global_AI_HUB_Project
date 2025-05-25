@@ -3,7 +3,7 @@
 
 Bu repo, Global AI Hub bootcamplerinde template olarak kullanmak amacıyla tasarlanmıştır.
 
-# Giriş
+# Veri Seti Hakkında Genel Bilgi
 
 Veri Seti https://www.kaggle.com/datasets/evan65549/health-and-fitness-dataset linkten alınmıştır. Değişkenlerle ilgili açıklamaları belirttiğim linkten inceleyebilirsiniz. Health_fitness_dataset, 3.000 katılımcının 2024 yılına ait yaklaşık 1 senelik gerçek sağlık ve fitness izleme verilerini içermektedir. Veri seti 687701 satırdan oluşmaktadır.
 Bu veri kümesi günlük aktiviteleri, önemli sağlık göstergelerini ve yaşam tarzı faktörlerini yakalar ve sağlık analizi ve tahmine dayalı modelleme için büyük değere sahiptir.
