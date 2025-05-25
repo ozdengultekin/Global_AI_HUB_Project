@@ -30,11 +30,11 @@ Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri seti
 
    Aykırı Değer Analizi: IQR yöntemi kullanılmıştır. K-means kümeleme de uzaklık temelli bir algoritma(öklidiyen) kullandığından mutlaka aykırı değerler elimine edilmelidir. 
    
-   Standartlaştırma: MinMaxScaler Veri setimizin her değişkeninin aralıkları birbirinden çok farklı olduğundan bunu belirli bir aralığa sınırlandırmak kümeleme performansını arttırmıştır. 
+   Standartlaştırma: MinMaxScaler Veri setimizin her değişkeninin aralıkları birbirinden çok farklı aralıklardadır.  MinMaxScaler bu değişken aralıklarını 0-1 aralığında  sınırlandırarak kümeleme performansını arttırmıştır. 
    
    Model: K-Means
    
-   Model Optimizasyon: Kümeleme optimizasyonu için elbow(dirsek) yöntemi kullanılmıştır. Ancak bununla elde ettiğimiz veri setimizde yugun bir performans alamdığımız için buradan elde ettiğimiz kümeleme değeri kullanılmamıştır.    
+   Model Optimizasyonu: Kümeleme optimizasyonu için elbow(dirsek) yöntemi kullanılmıştır. Bu yöntemle elde ettiğimiz küme sayısı veriyi iyi gruplandırmamıştır.
    
    PCA: Kümelediğimiz veri setini daha düzgün bir şekilde görüntülemek adına kullanıldı. Çünkü Temel bileşenler analizi(PCA) bilgiyi en fazla taşıyan değişkenlerle grafiğitemsil eder.    
    silhouette_score: Elbow yöntemiyle  optimize edilmiş kümeleme sayısı ile kümeleme başarısı değerlendirilmiştir.  
