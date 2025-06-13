@@ -52,6 +52,6 @@ Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri seti
 # Linkler  
 
 Projemle ilgili detaylı anlatımlara aşağıdaki linklerden ulaşabilirsiniz.  
-https://www.kaggle.com/code/zdengltekin/health-and-fitness-unsupervised/  
+https://www.kaggle.com/code/zdengltekin/health-and-fitness-unsupervised-3/  
 https://www.kaggle.com/code/zdengltekin/health-and-fitness-supervised/  
 
