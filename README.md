@@ -45,8 +45,7 @@ Makine Öğrenmesinin bir türü olan **gözetimsiz öğrenme**  ile mevcut veri
 3000 kişinin günlük sağlık verileri baz alınarak, yeni bir kullanıcının mevcut sağlık durumu ve spor aktiviteleri sonucu girdiği veriler ile  sağlık seviyesinin (fitness_level:sürekli değişken) matematiksel olarak hesaplanması amaçlanmaktadır. Bunun için streamlit üzerinde bir arayüz tasarımı yapılacaktır.
 İlerleyen aşamada, veri setinde var olan kullanıcılar için geleceğe yönelik sağlık seviye tahmini yapacak ve dahil olduğu sağlık grubuna göre geçmiş verileri elimizde olan kişilere tavsiyelerin verileceği bir sistem geliştirmek amaçlanmaktadır. Bunun için zaman serisi üzerine çalışma yapılacaktır.
 
-## 2. Gözetimsiz Öğrenme için Sonuçlar:  
-İlerleyen aşamalar projenin başında da belirttiğim gibi proje ile ilgili bir arayüz hazırlanacaktır.Projenin bu kısmında sisteme dahil olacak yeni bir kişiden endurance_heart_ratio, avg_heart_rate ve heart_rate_reserve değişkenleriyle ilgili ortalama değerlerini girmesini bekliyoruz. Buna ek olarak age bilgisini de sisteme girmesini bekliyoruz. Böylece yeni gelen kişinin mevcut veri setinde hangi gruba dahil olacağını belirliyor olacağız.Ancak veri gruplama konusunda yetersiz gibi görünüyor. Bu nedenle veriyi arttırmak daha verimli olacaktır.  
+## 2. Gözetimsiz Öğrenme için Sonuçlar ve Öneriler:  
 
 ### Segment İsimlendirmesi ve Öneriler
 
@@ -76,6 +75,25 @@ Beslenme: Akdeniz tipi diyet (zeytinyağı, balık, sebze ağırlıklı) tercih 
 * Beslenme: Protein, kompleks karbonhidrat ve sağlıklı yağ dengesi iyi kurulmalı.
 * Uyku takibi yapılmalı. 7–9 saat kaliteli uyku, genç yaşta bile kalp ritmini ve performansı olumlu etkiler.
 * Alkol, sigara gibi alışkanlıklardan uzak durulmalı.
+
+### Hangi Problemle Karşılaştık?
+
+Veri seti ilk olarak ham haliyle modele verildiğinde, yetersiz bir kümeleme performansı gözlemlenmiştir. Ayrıca, yüksek boyutlu ve tekrarlı gözlemlerden oluşan bu yapı, model eğitiminin süresini uzatmış ve anlamlı grupların oluşturulmasını zorlaştırmıştır.
+
+### Mevcut Probleme Nasıl bir Çözüm Getirildi?
+
+Bu durumu iyileştirmek amacıyla, her katılımcıya ait günlük verilerin ortalamaları alınarak daha sade ve temsil gücü yüksek bir veri seti oluşturulmuştur. Bu yaklaşım sayesinde hem kümeler arasındaki farklar daha belirgin hale gelmiş hem de model eğitimi hızlandırılmıştır.
+
+### Optimum Kümeleme Sayısını Nasıl Belirledik? 
+
+Başlangıç analizlerinde, hedef değişken olan fitness_level incelendiğinde, veri yapısına en uygun küme sayısının 2 olduğu gözlemlenmiştir. Bu bulguyu desteklemek için Elbow yöntemi kullanılarak optimum küme sayısı belirlenmiş, ardından bu sayının kümelenme kalitesi üzerindeki etkisi Silhouette skoru ile kontrol edilmiştir.Bu sonuca göre hesaplanan kümeleme sayısının iyi bir kümeleme yapmakta yetersiz olduğu tespit edilmiş olup  2 küme ile anlamlı bir segmentasyon elde edilmiştir.
+
+### İlerleyen Aşamada Proje Nasıl Geliştirilebilir?
+
+* Projenin ilerleyen aşamalarında, başta planlandığı gibi, model sonuçlarının son kullanıcıya sunulacağı bir arayüz (UI) geliştirilecektir. Bu arayüze veri setimizde daha önce hiç bilgisi olmayan yeni bir  kişinin endurance_heart_ratio, avg_heart_rate ve heart_rate_reserve ile ilgili ortalama değerlerinin girilmesi beklenmektedir. Buna ek olarak age bilgisi de alınacaktır. Böylece yeni kişi belli bir segmente dahil edilerek ilerleyen aşamalarda bu kişi için mevcut önerilerin verileceği bir sistem geliştirilebilir. Önerileri verebilen bir chatbot bu uygulama içerisine entegre edilebilir. 
+
+* Mevcut veri seti, kullanıcı çeşitliliği açısından sınırlı göründüğü için, spor ve sağlık alışkanlıkları açısından farklı profillere sahip bireylerle veri seti zenginleştirilmelidir. Bu çeşitlilik, hem küme sayısının artırılmasına hem de daha anlamlı segmentasyonlara olanak sağlayarak model performansını artırabilir.
+
 
 # Linkler  
 
