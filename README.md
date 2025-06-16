@@ -77,9 +77,6 @@ Beslenme: Akdeniz tipi diyet (zeytinyağı, balık, sebze ağırlıklı) tercih 
 * Uyku takibi yapılmalı. 7–9 saat kaliteli uyku, genç yaşta bile kalp ritmini ve performansı olumlu etkiler.
 * Alkol, sigara gibi alışkanlıklardan uzak durulmalı.
 
-### Hangi Problemle Karşılaştık?
-
-
 # Linkler  
 
 Projemle ilgili detaylı anlatımlara aşağıdaki linklerden ulaşabilirsiniz.  
