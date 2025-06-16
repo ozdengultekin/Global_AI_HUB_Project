@@ -11,9 +11,9 @@ Bu veri kümesi günlük aktiviteleri, önemli sağlık göstergelerini ve yaşa
 
 Projenin amacı, 
 
-Makine Öğrenmesinin bir türü olan gözetimli öğrenme ile  yeni gelen kullanıcının girmiş olduğu bilgilere göre; 1 gün içerisinde yaptığı spor ve mevcut sağlık durumuna göre sağlık seviyesini matematiksel olarak  hesaplamaktır. 
+Makine Öğrenmesinin bir türü olan **gözetimli öğrenme** ile  yeni gelen kullanıcının girmiş olduğu bilgilere göre; 1 gün içerisinde yaptığı spor ve mevcut sağlık durumuna göre sağlık seviyesini matematiksel olarak  hesaplamaktır. 
 
-Makine Öğrenmesinin bir türü olan gözetimli öğrenme  ile mevcut veri setindeki kişilerin günlük sağlık ve spor alışkanlıklarını belirten değişkenlerin ortalama değerleriyle yeni veri seti oluşturulmuştur. Sisteme yeni dahil olmuş kişinin belirlediğimiz değişkenlerin ortalama değerlerini girmesini bekliyoruz.  Bu yeni verilere göre, yeni kişinin hangi spor ve sağlık grubuna dahil olduğunu bulmak temel hedefimizi oluşturmaktadır.
+Makine Öğrenmesinin bir türü olan **gözetimsiz öğrenme**  ile mevcut veri setindeki kişilerin günlük sağlık ve spor alışkanlıklarını belirten değişkenlerin ortalama değerleriyle yeni veri seti oluşturulmuştur. endurance_heart_ratio, avg_heart_rate ve heart_rate_reserve değişkenleriyle ilgili ortalama değerlerini girmesini bekliyoruz. Buna ek olarak age bilgisini de sisteme girmesini bekliyoruz. Bu yeni verilere göre, yeni kişinin hangi spor ve sağlık grubuna dahil olduğunu bulmak temel hedefimizi oluşturmaktadır.
 
 
 # Metrikler
