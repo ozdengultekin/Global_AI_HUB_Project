@@ -42,7 +42,12 @@ Makine Öğrenmesinin bir türü olan **gözetimsiz öğrenme**  ile mevcut veri
 # Sonuç ve Gelecek Çalışmalar  
 
 ## 1. Gözetimli Öğrenme için Sonuçlar:  
-3000 kişinin günlük sağlık verileri baz alınarak, yeni bir kullanıcının mevcut sağlık durumu ve spor aktiviteleri sonucu girdiği veriler ile  sağlık seviyesinin (fitness_level:sürekli değişken) matematiksel olarak hesaplanması amaçlanmaktadır. Bunun için streamlit üzerinde bir arayüz tasarımı yapılacaktır.
+
+3000 kişinin günlük sağlık verileri baz alınarak, yeni bir kullanıcının mevcut sağlık durumu ve spor aktiviteleri sonucu girdiği veriler ile  sağlık seviyesinin (fitness_level:sürekli değişken) matematiksel olarak hesaplanması amaçlanmaktadır. Random Forest Regressor ile GPU destekli XGBoost Regressor modelinin fitness_level belirlemede daha başarılı olduğu sonucuna varılmıştır. Veri seti büyük olduğundan random forest gibi ağaç temelli  bir model kullanmakeğitim süresinin uzamasına neden olduğundan maliyetli olduğu sonucuna varılmıştır. GPU Destekli XGBoost Regressor kullanılıyor olması yukarıda belirttiğim eğitim süresini kısaltmıştır.
+
+### İlerleyen Aşamada Proje Nasıl Geliştirilebilir?
+
+Bunun için streamlit üzerinde bir arayüz tasarımı yapılacaktır.
 İlerleyen aşamada, veri setinde var olan kullanıcılar için geleceğe yönelik sağlık seviye tahmini yapacak ve dahil olduğu sağlık grubuna göre geçmiş verileri elimizde olan kişilere tavsiyelerin verileceği bir sistem geliştirmek amaçlanmaktadır. Bunun için zaman serisi üzerine çalışma yapılacaktır.
 
 ## 2. Gözetimsiz Öğrenme için Sonuçlar ve Öneriler:  
